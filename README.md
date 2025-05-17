@@ -4,9 +4,6 @@ This project uses an Arduino and two IR sensors to measure the speed of a moving
 🧠 What’s Happening Here?
 Two IR sensors are placed certain distance apart. When an object breaks the first beam, a timer starts. When it crosses the second, the timer stops. Using the time difference and fixed distance, we calculate the speed and convert it to km/h.
 
-plaintext
-Copy
-Edit
 Speed = (Distance / Time) × 3.6
 
 🛠️ Hardware Required
